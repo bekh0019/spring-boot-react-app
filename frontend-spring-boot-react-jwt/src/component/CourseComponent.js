@@ -21,8 +21,6 @@ class CourseComponent extends Component {
       id: this.props.match.params.id,
       description: '',
     };
-    this.onSubmit = this.onSubmit.bind(this);
-    this.validate = this.validate.bind(this);
   }
 
   onSubmit = (values) => {
