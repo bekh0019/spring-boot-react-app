@@ -1,6 +1,5 @@
 package com.bekh.jwt.controller;
 
-import com.bekh.jwt.entity.Course;
 import com.bekh.jwt.entity.HistoryItem;
 import com.bekh.jwt.exception.ForbiddenException;
 import com.bekh.jwt.service.HistoryService;
